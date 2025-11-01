@@ -103,6 +103,9 @@ Epoch [10/100] - Loss: 0.0532
 Install required packages:
 ```bash
 pip install pandas torch scikit-learn joblib openpyxl numpy
+```
+project directory:
+```
 │
 ├── cedt.xlsx                    # Input dataset (coastal erosion data)
 ├── erosion_model.py             # Training & evaluation script
@@ -110,7 +113,7 @@ pip install pandas torch scikit-learn joblib openpyxl numpy
 ├── erosion_preprocessor.pkl     # Saved preprocessing pipeline
 └── README.md                    # Documentation file
 🚀 How to Run
-
+```
 Ensure your dataset file cedt.xlsx is in the project directory.
 
 Run the model script:
@@ -121,12 +124,10 @@ python erosion_model.py
 The script will:
 
 Train the neural network
-
 Display evaluation metrics
-
 Save model and preprocessing artifacts
 
-🧭 Future Scope
+### 🧭 Future Scope
 
 🛰️ Integrate satellite imagery using CNN models
 
@@ -135,10 +136,12 @@ Save model and preprocessing artifacts
 🌐 Deploy model via Flask, Django, or FastAPI
 
 🗺️ Visualize erosion heatmaps using GIS tools
-👨‍💻 Authors
+
+## 👨‍💻 Authors
 
 IEEE GRSS Coastal Monitoring Team
-Developed by: [Your Name / Team Name]
-Institution: Manipal University
+Developed by: Sannihith Reddy M
+Institution: MAHE Bengaluru
 
-Department: Computer Science and Engineering
+Department: MIT CSE
+
