@@ -29,7 +29,7 @@ and predicts **coastal erosion rate** values.
 
 ### 1. **Data Loading**
 Reads the Excel file (`cedt.xlsx`) and assigns column headers:
-
+```year | country | continent | population | area | erosion_rate | lat | lon | elevation```
 
 ---
 
@@ -139,4 +139,5 @@ Developed by: Sannihith Reddy M<br>
 Institution: MAHE Bengaluru<br>
 
 Department: MIT CSE
+
 
