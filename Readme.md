@@ -110,7 +110,7 @@ project directory:
 ```
 │
 ├── cedt.xlsx                    # Input dataset (coastal erosion data)
-├── erosion_model.py (or ipynb)  # Training & evaluation script
+├── Coastal_IEEE_GRSS.py (or ipynb)  # Training & evaluation script
 ├── erosion_model_weights.pth    # Saved PyTorch model weights
 ├── erosion_preprocessor.pkl     # Saved preprocessing pipeline
 └── README.md                    # Documentation file
@@ -139,5 +139,6 @@ Developed by: Sannihith Reddy M<br>
 Institution: MAHE Bengaluru<br>
 
 Department: MIT CSE
+
 
 
