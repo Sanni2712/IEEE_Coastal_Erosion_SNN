@@ -71,8 +71,11 @@ After training, model performance is evaluated using:
 ---
 
 ### 6. **Model Saving**
-After successful training:
-
+After successful training:<br>
+```
+erosion_model_weights.pth      # Saved PyTorch model
+erosion_preprocessor.pkl       # Saved preprocessing pipeline
+```
 
 </details>
 
@@ -83,13 +86,13 @@ After successful training:
 ✅ Data loaded successfully.
 Epoch [10/100] - Loss: 0.0532
 ...
-✅ Test MSE: 0.0471
+✅ Test MSE: 0.2246
 
 📊 Evaluation Metrics:<br>
-MSE  (Mean Squared Error): 0.2246<br>
-RMSE (Root Mean Squared Error): 0.4739<br>
-MAE  (Mean Absolute Error): 0.3050<br>
-R² Score (Model Accuracy): 0.9967<br>
+MSE  (Mean Squared Error): 0.2246
+RMSE (Root Mean Squared Error): 0.4739
+MAE  (Mean Absolute Error): 0.3050
+R² Score (Model Accuracy): 0.9967
 ```
 ---
 
@@ -98,7 +101,7 @@ R² Score (Model Accuracy): 0.9967<br>
 ### 📦 Dependencies (if not using collab)
 Install required packages:
 
-```bash
+```bash/cmd
 pip install pandas torch scikit-learn joblib openpyxl numpy
 ```
 
@@ -117,7 +120,7 @@ project directory:
 ```
 
 Run the model script:
-python erosion_model.py or the individual cells of .ipynb (collab or jupyter notebook)
+python Coastal_IEEE_GRSS.py or the individual cells of .ipynb (collab or jupyter notebook)
 GPU runtime is preferd on collab
 
 The script will:
@@ -139,6 +142,7 @@ Developed by: Sannihith Reddy M<br>
 Institution: MAHE Bengaluru<br>
 
 Department: MIT CSE
+
 
 
 
