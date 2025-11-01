@@ -79,69 +79,64 @@ After successful training:
 ---
 
 ## 🧠 Example Output
+```
 ✅ Data loaded successfully.
 Epoch [10/100] - Loss: 0.0532
 ...
 ✅ Test MSE: 0.0471
 
-📊 Evaluation Metrics:
-• MSE (Mean Squared Error): 0.0471<br>
-• RMSE (Root Mean Squared Error): 0.2171<br>
-• MAE (Mean Absolute Error): 0.1524<br>
-• R² Score (Model Accuracy): 0.8932<br>
-💾 Model weights saved as 'erosion_model_weights.pth'<br>
-💾 Preprocessor saved as 'erosion_preprocessor.pkl'<br>
-
+📊 Evaluation Metrics:<br>
+MSE  (Mean Squared Error): 0.2246<br>
+RMSE (Root Mean Squared Error): 0.4739<br>
+MAE  (Mean Absolute Error): 0.3050<br>
+R² Score (Model Accuracy): 0.9967<br>
+```
 ---
 
-## 📦 Requirements
-
-### 🐍 Python version
-`Python 3.9+` recommended
-
-### 📦 Dependencies
+## 📦 Requirements 
+`Python 3.9+`
+### 📦 Dependencies (if not using collab)
 Install required packages:
+
 ```bash
 pip install pandas torch scikit-learn joblib openpyxl numpy
 ```
+
+## Usage
+
+Ensure your dataset file cedt.xlsx is in the project directory.
+
 project directory:
 ```
 │
 ├── cedt.xlsx                    # Input dataset (coastal erosion data)
-├── erosion_model.py             # Training & evaluation script
+├── erosion_model.py (or ipynb)  # Training & evaluation script
 ├── erosion_model_weights.pth    # Saved PyTorch model weights
 ├── erosion_preprocessor.pkl     # Saved preprocessing pipeline
 └── README.md                    # Documentation file
-🚀 How to Run
 ```
-Ensure your dataset file cedt.xlsx is in the project directory.
 
 Run the model script:
-
-python erosion_model.py
-
+python erosion_model.py or the individual cells of .ipynb (collab or jupyter notebook)
+GPU runtime is preferd on collab
 
 The script will:
-
-Train the neural network
-Display evaluation metrics
-Save model and preprocessing artifacts
+Train the neural network and 
+Display the evaluation metrics and
+saves the trained model and preprocessing artifacts.
 
 ### 🧭 Future Scope
 
-🛰️ Integrate satellite imagery using CNN models
-
-⏱️ Add temporal erosion tracking (multi-year prediction)
-
-🌐 Deploy model via Flask, Django, or FastAPI
-
-🗺️ Visualize erosion heatmaps using GIS tools
+🛰️ Integrate satellite imagery using CNN models<br>
+⏱️ Add temporal erosion tracking (multi-year prediction)<br>
+🌐 Deploy model via Flask, Django, or FastAPI<br>
+🗺️ Visualize erosion heatmaps using GIS tools<br>
 
 ## 👨‍💻 Authors
 
-IEEE GRSS Coastal Monitoring Team
-Developed by: Sannihith Reddy M
-Institution: MAHE Bengaluru
+IEEE GRSS Coastal Monitoring Team<br>
+Developed by: Sannihith Reddy M<br>
+Institution: MAHE Bengaluru<br>
 
 Department: MIT CSE
 
