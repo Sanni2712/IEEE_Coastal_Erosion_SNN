@@ -85,12 +85,12 @@ Epoch [10/100] - Loss: 0.0532
 ✅ Test MSE: 0.0471
 
 📊 Evaluation Metrics:
-• MSE (Mean Squared Error): 0.0471
-• RMSE (Root Mean Squared Error): 0.2171
-• MAE (Mean Absolute Error): 0.1524
-• R² Score (Model Accuracy): 0.8932
-💾 Model weights saved as 'erosion_model_weights.pth'
-💾 Preprocessor saved as 'erosion_preprocessor.pkl'
+• MSE (Mean Squared Error): 0.0471<br>
+• RMSE (Root Mean Squared Error): 0.2171<br>
+• MAE (Mean Absolute Error): 0.1524<br>
+• R² Score (Model Accuracy): 0.8932<br>
+💾 Model weights saved as 'erosion_model_weights.pth'<br>
+💾 Preprocessor saved as 'erosion_preprocessor.pkl'<br>
 
 ---
 
@@ -140,4 +140,5 @@ Save model and preprocessing artifacts
 IEEE GRSS Coastal Monitoring Team
 Developed by: [Your Name / Team Name]
 Institution: Manipal University
+
 Department: Computer Science and Engineering
